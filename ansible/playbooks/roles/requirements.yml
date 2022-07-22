@@ -1,20 +1,4 @@
 ---
-collections:
-  - ansible.posix
-  - community.crypto
-  - community.docker
-  - community.general
-  - community.postgresql
-
 roles:
-  - src: ome.omero_server
-    version: 4.0.2
-
-  - src: ome.omero_user
-    version: 0.3.0
-
-  - src: ome.postgresql
-    version: 5.0.3
-
   - src: ome.omero_web
     version: 4.0.1
