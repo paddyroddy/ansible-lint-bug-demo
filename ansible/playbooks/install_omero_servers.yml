@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+    - role: ome.omero_web
+    - role: ome.omero_user
